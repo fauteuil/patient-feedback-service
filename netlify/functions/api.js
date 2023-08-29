@@ -36,7 +36,7 @@ api.use(function (req, res, next) {
 });
 
 // api.use(cors({ origin: 'http://localhost:8888' })); // TODO: adjust for remote client with env vars.
-api.use(cors()); // TODO: adjust for remote client with env vars.
+// api.use(cors()); // TODO: adjust for remote client with env vars.
 
 // postgres db connection
 
